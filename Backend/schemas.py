@@ -3,6 +3,7 @@ from pydantic import BaseModel , EmailStr
 class KullaniciCreate(BaseModel):
     ad_soyad : str 
     email : str 
+    sifre : str 
 
 class KullaniciResponse(BaseModel):
     id : int 
